@@ -48,8 +48,8 @@ Build the docker server images
 docker build . -f Dockerfile.server --rm=true -t web/service:1.0 ; docker rmi $(docker images -f "dangling=true" -q)
 ```
 
-The commands above generate the following images. A couple of beautiful 10Mb images for the server and the client
-![Micro containers](http://i.imgur.com/nUmqH1A.png)
+The commands above generate the following image. A 5.8Mb web service container
+![Micro containers](https://preview.ibb.co/kkg6dF/Screen_Shot_2017_06_11_at_16_35_34.png)
 
 Run the docker server image assigning a static ip within the previous network
 ```
