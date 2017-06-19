@@ -55,3 +55,4 @@ Run the docker server image assigning a static ip within the previous network
 ```
 docker run -it -p 8080:8080 --name web_service web/service:1.0
 ```
+
